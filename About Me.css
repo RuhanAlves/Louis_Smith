@@ -1,0 +1,98 @@
+#About-Me{
+    position: relative;
+    color: rgb(0, 0, 0);
+}
+
+#About-Me::after{
+    position: absolute;
+    content: "";
+    display: flex;
+    background-color: black;
+    height: 1px;
+    width: 80px;
+    bottom: 2px;
+}
+
+.outros::after{
+    bottom: 2px;
+}
+
+.Louis2{
+    object-fit: cover;
+    width: 50%;
+    height: 65vh;
+}
+
+.Sobre{
+    position: relative;
+    background-color: rgb(247, 249, 250);
+    width: 50%;
+    height: 65vh;
+    padding-top: 10%;
+}
+
+.Sobre>h1{
+    color: rgb(237, 237, 237);
+    position: absolute;
+    top: 12.5%;
+    font-size: 70px;
+}
+
+.Sobre>p{
+    position: absolute;
+    color: rgb(199, 199, 199);
+    left: 8%;
+    font-size: 24px;
+    top: 16.5%;
+}
+
+.desc h1{
+    line-height: 60px;
+    font-size: 40px;
+    margin-bottom: 3%;
+}
+
+.desc p{
+    color: rgb(163, 163, 163);
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 5%;
+}
+
+#Nome2{
+    font-family: "Herr Von Muellerhoff", cursive;
+    font-size: 40px;
+    color: black;
+    margin-bottom: 5%;
+}
+
+.preto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 22vh;
+    background-color: rgb(36, 36, 35);
+}
+
+.preto div{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    margin-left: 7%;
+}
+
+.preto p{
+    font-weight: 600;
+    padding-right: 20px;
+    color: rgb(181, 181, 181);
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+.preto span{
+    display: inline-block;
+    font-size: 40px;
+    color: rgb(204, 183, 143);
+    padding-right: 30px;
+}

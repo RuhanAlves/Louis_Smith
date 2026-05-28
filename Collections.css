@@ -1,0 +1,196 @@
+#Collections{
+    position: relative;
+    color: rgb(0, 0, 0);
+}
+
+#Collections::after{
+    position: absolute;
+    content: "";
+    display: flex;
+    background-color: black;
+    height: 1px;
+    bottom: 2px;
+    width: 85px;
+}
+
+#dourado{
+    width: 100%;
+    height: 22vh;
+    background-color: rgb(204, 183, 143);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#dourado div{
+    display: flex;
+    margin-left: 25%;
+}
+
+#dourado div a, #dourado div p{
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+#dourado div a{
+    position: relative;
+    text-decoration: none;
+    color: rgb(102, 91, 71);
+    padding-right: 5px;
+}
+
+#dourado div p{
+    position: relative;
+    padding-left: 5px;
+}
+
+#dourado>div>a::after{
+    content: "";
+    left: 0;
+    bottom: -2px;
+    position: absolute;
+    height: 2px;
+    width: 90%;
+    background-color: rgb(184, 164, 129);
+}
+
+#dourado>div>p::after{
+    content: "";
+    left: 5px;
+    bottom: -2px;
+    position: absolute;
+    height: 2px;
+    width: 93%;
+    background-color: rgb(184, 164, 129);
+}
+
+#dourado h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 25%;
+    padding-top: 15px;
+}
+
+.fotos-ai{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.imagens-coisadas{
+    position: relative;
+    width: 31%;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 27px;
+    margin-bottom: 25px;
+    transition: all ease 0.3s;
+}
+
+.imagens-coisadas::before{
+    content: "";
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.651);
+    transition: all ease 0.3s;
+}
+
+.imagens-coisadas:hover::before{
+    opacity: 1;
+}
+
+#imagem1{
+    background-image: url(Imagens/image_1.jpg);
+    margin-left: 5px;
+}
+
+#imagem2{
+    background-image: url(Imagens/image_2.jpg);
+}
+
+#imagem3{
+    background-image: url(Imagens/image_3.jpg);
+    margin-right: 0;
+}
+
+#imagem4{
+    background-image: url(Imagens/image_4.jpg);
+    margin-left: 5px;
+}
+
+#imagem5{
+    background-image: url(Imagens/image_5.jpg);
+}
+
+#imagem6{
+    background-image: url(Imagens/image_6.jpg);
+    margin-right: 0;
+}
+
+#imagem7{
+    background-image: url(Imagens/image_7.jpg);
+    margin-left: 5px;
+}
+
+#imagem8{
+    background-image: url(Imagens/image_8.jpg);
+}
+
+#imagem9{
+    background-image: url(Imagens/image_9.jpg);
+    margin-right: 0;
+}
+
+#imagem10{
+    background-image: url(Imagens/image_10.jpg);
+    margin-left: 5px;
+}
+
+#imagem11{
+    background-image: url(Imagens/image_11.jpg);
+}
+
+#imagem12{
+    background-image: url(Imagens/image_12.jpg);
+    margin-right: 0;
+}
+
+.escuro{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    bottom: 12%;
+    left: 5%;
+    opacity: 0;
+}
+
+.imagens-coisadas .escuro{
+    transition: all ease 0.3s;
+}
+
+.imagens-coisadas:hover .escuro{
+    opacity: 1;
+}
+
+.escuro h1{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    line-height: 55px;
+    font-weight: 400;
+}
+
+.escuro p{
+    color: rgb(209, 203, 203);
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}

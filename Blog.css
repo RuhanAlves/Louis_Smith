@@ -1,0 +1,482 @@
+#Blog{
+    position: relative;
+    color: rgb(0, 0, 0);
+}
+
+#Blog::after{
+    position: absolute;
+    content: "";
+    display: flex;
+    background-color: black;
+    height: 1px;
+    bottom: 2px;
+    width: 39px;
+}
+
+#dourado{
+    width: 100%;
+    height: 22vh;
+    background-color: rgb(204, 183, 143);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#dourado div{
+    display: flex;
+    margin-left: 25%;
+}
+
+#dourado div a, #dourado div p{
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+#dourado div a{
+    position: relative;
+    text-decoration: none;
+    color: rgb(102, 91, 71);
+    padding-right: 5px;
+}
+
+#dourado div p{
+    position: relative;
+    padding-left: 5px;
+}
+
+#dourado>div>a::after{
+    content: "";
+    left: 0;
+    bottom: -2px;
+    position: absolute;
+    height: 2px;
+    width: 90%;
+    background-color: rgb(184, 164, 129);
+}
+
+#dourado>div>p::after{
+    content: "";
+    left: 5px;
+    bottom: -2px;
+    position: absolute;
+    height: 2px;
+    width: 88%;
+    background-color: rgb(184, 164, 129);
+}
+
+#dourado h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 25%;
+    padding-top: 15px;
+}
+
+#Quase-tudo{
+    display: flex;
+    justify-content: center;
+    padding: 75px 27px;
+}
+
+.Ai-dento2{
+    display: flex;
+    margin-bottom: 6em;
+}
+
+.Ai-dento2:last-of-type{
+    margin: 0;
+}
+
+#Acaba-pfvr{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 54%;
+}
+
+#Acaba-pfvr-part2{
+    position: relative;
+    height: 100%;
+    width: 26%;
+    background-color: rgb(247, 249, 250);
+    padding: 0px 15px;
+}
+
+.Control-C{
+    width: 50%;
+    max-width: 365px;
+    height: 300px;
+}
+
+.Control-V{
+    padding-left: 25px;
+    width: 50%;
+    max-width: 365px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px
+}
+
+#imagem1{
+    background-image: url(Imagens/image_1.jpg);
+}
+
+#imagem2{
+    background-image: url(Imagens/image_2.jpg);
+}
+
+#imagem3{
+    background-image: url(Imagens/image_3.jpg);
+}
+
+#imagem4{
+    background-image: url(Imagens/image_4.jpg);
+}
+
+#imagem5{
+    background-image: url(Imagens/image_5.jpg);
+}
+
+#imagem6{
+    background-image: url(Imagens/image_6.jpg);
+}
+
+#imagem7{
+    background-image: url(Imagens/image_7.jpg);
+}
+
+#imagem8{
+    background-image: url(Imagens/image_8.jpg);
+}
+
+#imagem1, #imagem2, #imagem3, #imagem4, #imagem5, #imagem6, #imagem7, #imagem8{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Control-V a{
+    text-decoration: none;
+}
+
+.Control-V a:first-of-type{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+}
+
+.Control-V a:last-of-type{
+    color: rgb(207, 186, 149);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.Control-V p:first-of-type{
+    padding-top: 5px;
+    font-size: 14px;
+    color: rgb(194, 194, 194);
+}
+
+.Control-V p:last-of-type{
+    color: rgb(153, 153, 153);
+    font-weight: 500;
+    padding: 15px 0px;
+    line-height: 30px;
+}
+
+#Patrick-burro{
+    color: black;
+    font-size: 14px;
+    padding: 0px 15px;
+}
+
+.Formulario-burro{
+    position: relative;
+    padding: 25px;
+    margin-bottom: 30px;
+}
+
+.Formulario-burro form input{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.Formulario-burro form img{
+    position: absolute;
+    height: 19px;
+    width: 20px;
+    right: 13%;
+    top: 40%;
+}
+
+#Todos-esses{
+    padding-right: 0px;
+}
+
+.pês{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    padding-bottom: 21px;
+    letter-spacing: 2px;
+    color: rgb(51, 51, 51);
+    font-weight: 700;
+}
+
+#Todos-esses li{
+    width: 90%;
+    padding: 7px 0px;
+    margin-bottom: 10px;
+    position: relative;
+    list-style: none;
+    padding-bottom: 15px;
+}
+
+#Todos-esses li::after{
+    list-style: none;
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(228, 228, 228);
+}
+
+#Todos-esses li:last-of-type::after{
+    background-color: rgb(247, 249, 250);
+}
+
+#Todos-esses ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+#Todos-esses li a span{
+    color: rgb(212, 212, 212);
+    position: absolute;
+    right: 0;
+}
+
+.Tudo-junto{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 28px;
+}
+
+.imagem-artigo{
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#Me-ajuda1{
+    background-image: url(Imagens/image_1.jpg);
+}
+
+#Me-ajuda2{
+    background-image: url(Imagens/image_2.jpg);
+}
+
+#Me-ajuda3{
+    background-image: url(Imagens/image_3.jpg);
+}
+
+.conteudo-artigo{
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-artigo{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+    transition: all ease 0.4s;
+}
+
+.titulo-artigo:hover{
+    color: rgb(204, 183, 143);
+}
+
+.infos-artigo{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.infos-artigo a{
+    text-decoration: none;
+    color: rgb(150,150,150);
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.infos-artigo a span{
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.infos-artigo img{
+    width: 12px;
+    height: 12px;
+    display: block;
+}
+
+#Dogs{
+    height: 180px;
+}
+
+#Os-Seres-Vivos{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.Seres{
+    text-decoration: none;
+    margin: 0px 4px 7px 0px;
+    background-color: white;
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 10%;
+    transition: all ease 0.3s;
+}
+
+.Seres:hover{
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.Vivos{
+    font-size: 11px;
+    padding: 4px 10px;
+    color: black;
+    font-weight: 500;
+}
+
+#Montanha{
+    background-image: url(Imagens/montanha_1.jpg);
+    width: 340px;
+    position: relative;
+    left: 0;
+    height: 312px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 45px;
+    padding:  25px;
+    padding-left: 15px;
+    overflow: hidden;
+}
+
+#Montanha::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+    z-index: 0;
+}
+
+#Montanha p{
+    position: relative;
+    z-index: 1;
+}
+
+#Montanha p:first-of-type{
+    color: rgb(255, 255, 255);
+}
+
+#Montanha p:last-of-type{
+    color: rgb(205, 208, 209);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 26px;
+    padding-bottom: 21px;
+}
+
+#Montanha form input{
+    width: 300px;
+    height: 50px;
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.3);
+    padding-left: 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#Montanha form input::placeholder{
+    color: rgba(255,255,255,0.7);
+}
+
+.Inscreva-se{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+#últimos-2 li{
+    width: 90%;
+    padding: 7px 0px;
+    margin-bottom: 10px;
+    position: relative;
+    list-style: none;
+    padding-bottom: 15px;
+}
+
+#últimos-2 li::after{
+    list-style: none;
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(228, 228, 228);
+}
+
+#últimos-2 li:last-of-type::after{
+    background-color: rgb(247, 249, 250);
+}
+
+#últimos-2 ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+#últimos-2 li a span{
+    color: rgb(212, 212, 212);
+    position: absolute;
+    right: 0;
+}
+
+#Párágráfô p:last-of-type{
+    color: rgb(153, 153, 153);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+}
